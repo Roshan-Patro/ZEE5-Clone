@@ -1,0 +1,251 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+#navbar{
+    display: flex;
+    width: 92vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 60px;
+}
+#navbar>div{
+    height: 100%;
+}
+#navbarImg img{
+    height: 100%;
+}
+.search-container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-container>form>input{
+    height: 30px;
+}
+.search-container>form>button{
+    height: 35px;
+}
+.search-container>form>input{
+    width: 350px;
+}
+.search-container>form>button{
+    width: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#lastTab{
+    width: 20%;
+    text-align: right;
+}
+.fa{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+#search{
+    background-color: transparent;
+}
+.search-container>form{
+    background-color:black;
+    color: white;
+}
+#slider{
+    margin-top: 20px;
+    margin-left: 87px;
+}
+#innerBtns{
+    position: relative;
+    bottom: 95px;
+    left: 30px;
+}
+#innerBtns>button{
+    height: 40px;
+    border-radius: 8px;
+}
+#innerBtns>button>h4{
+    position: relative;
+    bottom: 7px;
+}
+    
+#sliderTop{
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+#Image{
+    width: 85vw;
+    height: 450px;
+    cursor: pointer;
+}
+#sliderTop>h1{
+    position:absolute;
+    bottom: 100px;
+    left:30px;
+    color: white;
+    cursor: pointer;
+}
+#prev{
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#next{
+    position: absolute;
+    right: 20px;
+    top: 310px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.videoContainer{
+    display: flex;
+    overflow-x: auto;
+    padding: 0 3vw;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.videoCard{
+    margin-right: 10px;
+}
+.videoCard>img{
+    border-radius: 8px;
+}
+#backNone{
+    color: white;
+    background-color: #4d4d4d;
+    border: white;
+    margin-right: 3px;
+}
+#backNone:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#backPurple{
+    background-color: rgb(100, 15, 100);
+    color: white;
+    border: none;
+    width: 100px;
+}
+#backPurple:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+
+.videoCategory{
+    margin-left: 42px;
+    margin-top: -5px;
+}
+.preBtn{
+    position: absolute;
+    left: 24px;
+    top: 825px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.nxtBtn{
+    position: absolute;
+    right: 15px;
+    top: 825px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+
+hr{
+    margin-top: 50px;
+}
+#footerTop{
+    display: flex;
+    width: 88vw;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 26px;
+    margin-left: 86.5px;
+}
+#ftL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ftL>div{
+    margin-right: 20px;
+}
+#ftL h3{
+    margin-bottom: 27px;
+    color: white;
+}
+#ftR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ftR>div{
+    margin-right: 20px;
+}
+#ftR h3{
+    margin-bottom: 37px;
+    color: white;
+}
+.fa-brands{
+    font-size: 30px;
+    position: relative;
+    bottom: 9.5px;
+    color: white;
+}
+#ft2{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    margin-left: 85px;
+}
+#fbody{
+    display: flex;
+    margin-left: 45.5px;
+    color: white;
+    font-weight: lighter;
+}
+#fbody>div{
+    margin-right: 17px;
+    height: 100%;
+}
+#fbody ul{
+    list-style: none;
+    line-height: 27px;
+    font-style: normal;
+}
+#fbott{
+    margin-left: 85.5px;
+    line-height: 20px;
+    margin-top: 35px;
+    color: white;
+}
+.makeBold{
+    font-weight: bolder;
+    color: white;
+}
