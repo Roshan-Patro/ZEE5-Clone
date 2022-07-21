@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Series</title>
+    <script src="https://kit.fontawesome.com/e22cfc7c76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="homePage.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="navbarImg">
+            <a href="homePage.html"><img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.52.15" alt=""></a>
+        </div>
+        <div id="link"><a href="homePage.html"><h3>Home</h3></a></div>
+        <div><a href="webSeries.html"><h3>Web Series</h3></a></div>
+        <div><a href=""><h3>News</h3></a></div>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input id="searchBox" type="text" placeholder="Search for Movies, Shows, Channels etc." name="search">
+              <button id="search" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        <div id="lastTab"><a href=""><h3>LOGIN</h3></a></div>
+    </div>
+    <div id="slider">
+        <div id="sliderTop">
+            <img id="Image" src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-3284/cover/1920x770ffd5406dde2541ddb0a0d4dcc57ee834.jpg" alt="">
+            <h1>Sunflower</h1>
+        </div>
+        <div id="innerBtns">
+            <button id="backNone">
+                <h4><i class="fa-solid fa-play"></i>&nbsp;&nbsp;WATCH</h4>
+            </button>
+            <button id="backPurple">
+                <h4><i class="fa-solid fa-crown"></i>&nbsp;&nbsp;BUY NOW</h4>
+            </button>
+        </div>
+        <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    
+    <section class="videos">
+        <h2 class="videoCategory">Top 10 in India</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5177236/portrait/1920x770cd788cc8f66e4f27accee7da64d1e9cd.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5172328/portrait/1920x77007054b7e4c68467d92059e604b937ce4.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5181112/portrait/1920x7708502c7d44df94abb8df571634ddeff55.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5172356/portrait/1920x7705a2073dc89d04da2926dbcd3886785aaa974ce344e704cabb3b0556de80eaa7b.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5149852/portrait/1920x7708760d4e6a1c8429cbfea6f1e4a375f6d25ac3d74d6544bc89704d6475e368c79.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5168144/portrait/1920x770d20ddc9eac304f87b1a960754cada35a.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770abf42130d9cf41dab2bf9e648cf3193b0b8736722f40431bb31a5214ab98851c.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5145092/portrait/1920x7702e1f16a2d4f4479284dabf671658897e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5161064/portrait/1920x770141bcd9ccf9945d490a7935a3cc311069180d7d5e4c248279410203ac82bc67d.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1965/portrait/1920x770fa2a0768d2f64c07abef5d580c170cb0.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Latest Movies on ZEE5</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5149852/portrait/1920x7708760d4e6a1c8429cbfea6f1e4a375f6d25ac3d74d6544bc89704d6475e368c79.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5177236/portrait/1920x770cd788cc8f66e4f27accee7da64d1e9cd.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x77060dd64aa6ef748f48bbdf4951a1f6af7b51352ca11794ad79904fded999459e7.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d712772e37d5341fe9df182c9f5732ecf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-10z5145273/portrait/1920x770681eb40058c046b7927bea554484d07f.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5168144/portrait/1920x7709b5906f9ab1347e7915762097af21c2e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5146416/portrait/1920x77030295e51fe54452d8c85e76c5ec756e892b2b3c05ed24c43919a4293fbe8344b.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5168593/portrait/1920x770d32fb5a532b54f718e18d08ae5bfe599.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770345aac620b1b4b0188b9b4cbad67f485.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5129922/portrait/1920x770f5cd699c80af47118085d23a878faa68.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5176983/portrait/1920x770b12bd17d704c48c4aacd37e15cc183da.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5176982/portrait/1920x77042e129fc00244061afc5515e76ecb441.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5156101/portrait/1920x7702f5c1d7a0eee45bdbdd6f473c9f51fe8.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5145103/portrait/1920x770189f07ded33c4436b6d1796409308f04.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5168387/portrait/1920x77048d8392e87ec44d3a8fd89c036019e9e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5117565/portrait/1920x7708e744fbdcb554e54a1036108a0832ebf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z562203/portrait/1920x7706847e0d919d448328eeb2f88b259d73a0fd8743b1e984c9782e72e68355cf49e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z595840/portrait/1920x770e7d51316ea6740c39197181f81575868.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-73415/portrait/1920x770546cc83b519e4088b6f0bec6cdd6e7d275cce518f27e420ea676dda625c6b0d3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Latest Hindi Episodes Free</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183357/list/000001866d83a296c36f40bb92f01fd1f5fb261f.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183430/list/000002492d025ea681e848db9579cdc459bb65e5.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183328/list/00000101a840c45ee8294d1da737c1ad4740fdf1.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183435/list/00000022a91feb43877c48a6b299fc99b5606cb5.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183344/list/00000233ee4c86ef70ca4153aaa2914de5333c81.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183476/list/00000178c67c59bfff6f4a6a966f2c99c679d9b6.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183282/list/000002332a22b883a0df4d4d8806f0d2e68f11c8.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183153/list/00000095e21c5978471c42c89eb9e6c17951959f.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183199/list/00000059432cb4fefab54ee98fb57104f40f10f3.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183424/list/00000211aa3ed20a2ebd42899226acff293b27c4.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183227/list/000001859251bee1dd3647fba279b549291b6e1f.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183177/list/000001490723335ffab2433e92bcb854884ecfb4.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183429/list/000002360d79de611f1c444e8f8926807092d089.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183324/list/0000013509b05d5039ce4f9198133445173380c3.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183432/list/0000016393e7d5095179447ea210644d7d1252e8.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183474/list/0000021935b50713663748a891b46eae90be2145.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183280/list/000002539d660ec71bad4af5b9d39d5c8f2d2f46.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5183154/list/00000038edfc2332127b4eda94dad1b3cb1130a8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">ZEE5 Original Web Series</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5172356/portrait/1920x7704fe2f6ee01744cfc9f20007b29472a79.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770abf42130d9cf41dab2bf9e648cf3193b0b8736722f40431bb31a5214ab98851c.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5173774/portrait/1920x7708830a8a4737c4a05ae1c0df6201026b4d90c01692d7e44458802840dbff3589e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1298/portrait/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/portrait/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z596111/portrait/1920x7709fcbdd4c78184b51aadd7e2e34396dbf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3502/portrait/1920x77096c3c9d32c6946bb933bef0e7463b7af.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5130773/portrait/1920x7708e0b2f3ad3bb45b8be8b3073d20fb1aa.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3044/portrait/063044incover98740071191a4d21bb818ea29d68541e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1527/portrait/1920x77048353f31183145fc826174620cb78fcb.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1160_34836872/portrait/1920x770in182137154518213715f10a8bc3da8142a3bdcf8030b38c7569.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2080/portrait/062080incover598958304.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2356/portrait/1920x770ffdfc616c75840cf95545cd67e3476d6e2fb2ce4623c4ebaa29b36ba97edf983.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Top JEE5 Originals | First Ep Free</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3284/portrait/1920x770ffd5406dde2541ddb0a0d4dcc57ee834.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1138/portrait/1920x7702d7ab4cfdf4c4ce5b0eaf5729107e1b0.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2955/portrait/1920x7702bde888e01a54a1688ff0a84809a657aef9692fca19245ee980762d8461cfb17.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2370/portrait/1920x770110fc27af01245fe87dd991bdf8ee49e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2395/portrait/062395incover18856015811885d96e4480c15e457f8b0b4c30a5883775.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-tvshow_304564789/portrait/06tvshow3045641436360016.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2923/portrait/1920x77088034308288034308265e8c0753ce34a6ebedc2dbf823a90ed.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1741/portrait/061741incover.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1290/portrait/061290incover.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1102/portrait/1920x77011433436151143343615545fc524f6d34a908f70d2cbd4911374.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1741/portrait/061741incover.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2922/portrait/1920x77049928193.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1558/portrait/061558incover.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3051/portrait/1920x770in1063538472.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2996/portrait/062996incover.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Learn with Eduauraa</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8548/list/1170x6583248420913248420912a5ee8a5bc7544c2b26f9020cef371ab.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8582/list/1170x65830152025630152025618382d6419e84a5fbcc22267dc983c46.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8583/list/1170x65897513700697513700637a8b1550c2448ad9edc8fc9456883fc.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8584/list/1170x65818705127701870512770045e11e19c4f4e3191082b0fbf4b994c.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8585/list/1170x658withlogo75397317933638180770f3674300ab4d08a0ee25a9182271af.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8561/list/1170x658withlog15637534081261426405f18e7258a8c64b33843c0a930b6ed840.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8586/list/1170x658withlog13821955204346389504e865c004b6a47618b7b41952d073e20.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-3z5185913/list/eduauraa1170x658spokenenglishdcd1c6d03b694c91a0f172ec0d8d11b0.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8587/list/1170x658withlog124091336221532953470eaacaa4b9447a8bc521973d746d76c.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-8-8564/list/1170x658withlogo1582658441280165663fea06f91d1324cecafabf33067250514.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-0-2z5133841/list/1170x658withlogoa3098dc8bd1b4648931ecf59c635b37d.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Hindi Dubbed Movies</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-movie_466418637/portrait/1920x770bd16a42c2fd7485db6672b48cb8b435e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5168593/portrait/1920x770d32fb5a532b54f718e18d08ae5bfe599.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-348372/portrait/1920x77041f91aea29de44daa6ab065a1f6a6c53.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5156101/portrait/1920x7702f5c1d7a0eee45bdbdd6f473c9f51fe8.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-2518/portrait/no1businessman1920x770ab3266edb5bd4fdfb2e1c75c60aafc89.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5117565/portrait/1920x7708e744fbdcb554e54a1036108a0832ebf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1803765767/portrait/TimeStory1920x7702e3b15ada92d419d95ef0d15a7919a63.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-149834/portrait/1920x7702018404691.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133688/portrait/1920x770a9d8bee23b2a416e84d820532a70ece9.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-2535/portrait/1920x77039312dfd388843bb8347d3b389561888.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">IMDB Top Picks</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5145092/portrait/1920x7702e1f16a2d4f4479284dabf671658897e.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d712772e37d5341fe9df182c9f5732ecf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770345aac620b1b4b0188b9b4cbad67f485.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-59341/portrait/1920x7706a5cd32f471c4f78a3dee8fcd236f95cd11020f7da2f44e4a0102a0cdfda1e6b.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5161064/portrait/1920x770141bcd9ccf9945d490a7935a3cc311069180d7d5e4c248279410203ac82bc67d.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x77060dd64aa6ef748f48bbdf4951a1f6af7b51352ca11794ad79904fded999459e7.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z571846/portrait/1920x770364454fc4bf746c1956eb58e21632145.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1921832123/portrait/00movie192183215775429881577a1ad6512311c4c54a24ade6841caf1e8.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3284/portrait/1920x770ffd5406dde2541ddb0a0d4dcc57ee834.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-191767/portrait/1920x77053cf74597a844465a32a47be18aa0f8bc1c7bc4f2c8d4ef6a580720e57f259f1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Featured Celebs</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer_circle">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-6488/square/salmankhanfeaturedcelebsimagery1170x65809062022625a938fb39847fcad83c27afbcf457c.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-3465/square/kanganaranaut_11_740919463.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-8267/square/vikrantmasseyplatformcreta.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-3z5160114/square/radhikaaptefeaturedcelebsimagery1170x65809062022c01252ab71ec4402a40abad627a93100.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-2726/square/amitabhbacchan1943871325943d09c20f4de05425fad88119ceae03f2a.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-3z5160115/square/jaideepahlawatthumbnailpin1170x658featuredcelebsimagery130620225342e77a77284df7857847f2462eb47b.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-3z5163627/square/humaqureshithumbnailpin1170x658featuredcelebsimagery1306202266550803cd154760b4740b26a96bcb1f.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-7543/square/platformcretaiv19394642241939039a6f594cc14281be4890c46be5cc50.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-6489/square/akshaykumar117054854610454834be00582707448e8b5b9f987afffaaf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-8678/square/platformcretaive901722262901bf7ce071fc824c03b3d974ce5d2caa79.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-6255/square/naseeruddinshah.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-736/square/johnabraham.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-7523/square/platformcretaiv_1631276378.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-7217/square/pankajtripathi.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-8672/square/platformcretaive331163409331c6fe696bfb7c4d1ca2febd08b9fe6fe7.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-3z5160116/square/priyanshupainyulliithumbnailpin1170x658featuredcelebsimagery1006202215c6205448e44d7c836a788efafceb2d.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_102,h_102,c_scale,f_webp,q_auto:eco/resources/0-8-3z5163628/square/abhishekbanerjeethumbnailpin1170x658featuredcelebsimagery13062022cc16093bbcd44a5e8dbb5a4c27a88f9c.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Leading Ladies</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2006/portrait/1920x7701841267543184126754391f0ff96e4e74355a388f2ab41608172.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5177236/portrait/1920x770cd788cc8f66e4f27accee7da64d1e9cd.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-10z5172591/portrait/1920x77023bb491ffba5847e68743bd71140e596b.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z543444/portrait/1920x770aafb9b5212694c7695e6bfe215ea0ff6.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1424717826/portrait/00movie14247178262653619629a630c6a9a0e467abf50068be0e8a209.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1741/portrait/061741incover.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-tvshow_304564789/portrait/06tvshow3045641436360016.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2471/portrait/062471incover1188182921118800796a599bac44cea2eef989c2065e42.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z513117/portrait/1920x770478c174d17894ab79a63d72e6b02a830d72d7d1a03fc4037a8b321b5519c5a8e.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Free Live News Channels</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-zee24taas/list/zee24taas11707d845042f4ef453a8568b6ba22b3f568.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="hhttps://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2161/portrait/062161incover.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-aajtak/list/aajtak11704b0fb9d504e24144aa1bb610911f543b.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-zeenews/list/zeenews1440bfc72cfbc03a48e9b64b0f45aab38155.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-indiatoday/list/indiatodayrajeevsardesdai1170fa2bd800092a4d5c990afa2364e6015d.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-400/list/abpmajha1170cb8e2b94f9244846a3be5bdaa87792f8.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-zeebusiness/list/zeebusiness117070a1a621ebfe49689982517efaa02515.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-wion/list/wion1170mobile459e07034477470ca3ff911731a4b4d1.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-398/list/abpnewssumitawasthi2117036defc5b181b4a25a143034a06b591e5.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_382,h_215,c_scale,f_webp,q_auto:eco/resources/0-9-9z583386/list/timesnownavbharat11708b7a034a3bbf4930adc5f931d9bdd078.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Bachchan Film Fest</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d712772e37d5341fe9df182c9f5732ecf.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z51266/portrait/1920x7704b54a5bc43f5429a81c4e8688908b78a.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-403254/portrait/1920x77065181af5b346414ab0e9449a74f48485.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-403256/portrait/1920x770880c68014fa24e9fbcea503a14ae58e5.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-107497/portrait/1920x770a53a4852248b42d59ac622f406edb239.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-2484/portrait/deewaar1920x770.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-6963/portrait/cheenikum1920x770.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-63/portrait/0063cover734102296.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-2372/portrait/aajkaarjun1920x770.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-7701/portrait/007701cover924672104.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">ZEEPLEX Movies on ZEE5</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5185726/list/ImageTitle0bebe5f9a27b43b18f6413ac8bd90dd0.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5129922/list/1170x658withlogo701cc5dc002b483091c6b4d911f838d2.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5145156/list/1170x658withlogo3c6e5969c9c444959196415fd1f89634.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5163547/list/ImageTitle6eab80ad9d8341b9b015e67a76707272.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5181035/list/ImageTitle01592987e99a4591986105e49ab21ef4.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5137609/list/1170x658withlogo99f449aed5be477d92eed6da23e50af0.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5149871/list/1170x658withlogoe80a47088e1c49cd88b6758d863f12f3.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5167917/list/1170x658withlogodb8e3d051b504f61bbba933428c22e75.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_508,h_286,c_scale,f_webp,q_auto:eco/resources/0-0-1z5163921/list/ImageTitlec1732ca2af604960aa89f3f8c5f1fb3d.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2 class="videoCategory">Most Admired OTT Stars</h2>
+        <button class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="nxtBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="videoContainer" id="videoContainer">
+            <div class="videoCard">
+                <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5149852/portrait/1920x7708760d4e6a1c8429cbfea6f1e4a375f6d25ac3d74d6544bc89704d6475e368c79.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2955/portrait/1920x7702bde888e01a54a1688ff0a84809a657aef9692fca19245ee980762d8461cfb17.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z595840/portrait/1920x770e7d51316ea6740c39197181f81575868.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-13567/portrait/0013567incover379095958.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z51198/portrait/1920x770a02410f0ba6b487cb2b2309deaff5751.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3502/portrait/1920x77096c3c9d32c6946bb933bef0e7463b7af.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3064/portrait/1920x770f6f1d5315e9145808275b6b69e6572f7.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3052/portrait/1920x770298004827.jpg" alt="">
+            </div>
+            <div class="videoCard">
+                <!-- <span><i class="fa-light fa-angle-right"></i></span> -->
+                <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3190/portrait/063190incover1678523341.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <hr>
+        <div id="footerTop">
+            <div id="ftL">
+                <div><h3>Download Apps</h3></div>
+                <div><img src="https://www.zee5.com/images/play_store.png?ver=2.52.15" alt=""></div>
+                <div><img src="https://www.zee5.com/images/app_store.png?ver=2.52.15" alt=""></div>
+            </div>
+            <div id="ftR">
+                <div><h3>Connect with us</h3></div>
+                <div><i class="fa-brands fa-youtube"></i></div>
+                <div><i class="fa-brands fa-instagram" id="inst"></i></div>
+                <div><i class="fa-brands fa-twitter" id="twtr"></i></div>
+                <div><i class="fa-brands fa-youtube" id="yutb"></i></div>
+            </div>
+        </div>
+        <div id="ft2"><h4>About Us</h4><h4>|</h4><h4>Help Center</h4><h4>|</h4><h4>Privacy Policy</h4><h4>|</h4><h4>Terms of Use</h4></div>
+        <div id="fbody">
+            <div>
+                <ul>
+                    <li class="makeBold">Popular TV Shows</li>
+                    <li>Kumkum Bhagya</li>
+                    <li>kundali Bhagya</li>
+                    <li>Bhagya Lakshmi</li>
+                    <li>Tujhse Hai Raabta</li>
+                    <li>Kyun Rishton Mein Katti Batti</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="makeBold">Premium Movies</li>
+                    <li>Kya Meri Sonam Gupta Bewafa Hai?</li>
+                    <li>Helmet</li>
+                    <li>200 Halla Ho</li>
+                    <li>14 Phere</li>
+                    <li>Dial 100</li>
+                </ul>
+            </div>
+            <div><ul>
+                    <li class="makeBold">Popular Live TV Channels</li>
+                    <li>Aaj Tak</li>
+                    <li>Zee News</li>
+                    <li>Zee TV HD</li>
+                    <li>&TV HD</li>
+                    <li>Zee Marathi HD</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="makeBold">Popular Web Series</li>
+                    <li>Sunflower</li>
+                    <li>Jeet Ki Jid</li>
+                    <li>Bicchoo Ka Khel</li>
+                    <li>State Of Siege: 26/11</li>
+                    <li>Naxalbari</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="makeBold">Bollywood Top Celebrities</li>
+                    <li>Sunny Leone</li>
+                    <li>Disha Patani</li>
+                    <li>Deepika Padukone</li>
+                    <li>Salman Khan</li>
+                    <li>Nora fatehi</li>
+                </ul>
+            </div>
+        </div>
+        <div id="fbott">
+            <p>Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+<br>
+                Copyright © 2022 Zee Entertainment Enterprises Ltd. All rights reserved.</p>
+        </div>
+    </section>
+</body>
+</html>
+<script src="webSeries.js"></script>
