@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(31, 12, 31);
     overflow-x: hidden;
 }
 #navbar{
@@ -83,6 +83,9 @@ a{
     height: 450px;
     cursor: pointer;
 }
+#Image:hover{
+    opacity: 0.9;
+}
 #sliderTop>h1{
     position:absolute;
     bottom: 100px;
@@ -121,7 +124,11 @@ a{
 }
 .videoCard{
     margin-right: 10px;
+    cursor: pointer;
 }
+/* .videoCard:hover img{
+    opacity: 0.8;
+} */
 .videoCard>img{
     border-radius: 8px;
 }
@@ -151,11 +158,19 @@ a{
 .videoCategory{
     margin-left: 42px;
     margin-top: -5px;
+    color: white;
+    font-family: NotoSansMedium,sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.videos{
+    position: relative;
+    margin-bottom: 45px;
 }
 .preBtn{
     position: absolute;
-    left: 24px;
-    top: 825px;
+    left: 15px;
+    top: 54%;
     color: white;
     background-color: transparent;
     font-weight: bold;
@@ -166,13 +181,19 @@ a{
 .nxtBtn{
     position: absolute;
     right: 15px;
-    top: 825px;
+    top: 54%;
     color: white;
     background-color: transparent;
     font-weight: bold;
     font-size: 18px;
     border: none;
     cursor: pointer;
+}
+#videoContainer_circle>div{
+    border-radius: 50%;
+}
+#videoContainer_circle>div>img{
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -227,8 +248,9 @@ hr{
 #fbody{
     display: flex;
     margin-left: 45.5px;
-    color: white;
-    font-weight: lighter;
+    margin-top: -13px;
+    color: rgb(199, 186, 186);
+    /* font-weight: lighter; */
 }
 #fbody>div{
     margin-right: 17px;
@@ -236,8 +258,10 @@ hr{
 }
 #fbody ul{
     list-style: none;
-    line-height: 27px;
-    font-style: normal;
+    line-height: 29px;
+    font-family: NotoSansRegular,sans-serif;
+    font-size: .8rem;
+    /* font-style: normal; */
 }
 #fbott{
     margin-left: 85.5px;
