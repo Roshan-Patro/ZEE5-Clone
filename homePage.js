@@ -68,6 +68,25 @@ function goPrev(detailsArr)
     toBuy.innerText=detailsArr[currentBox]["text2"];
 }
 
+var myIndex = currentBox;
+carousel();
+
+function carousel() {
+  var i;
+  for (i = 0; i < detailsArr.length; i++) {
+    showImg.src=detailsArr[i]["videoImage"];
+
+    showImg.style.display = "none";  
+  }
+
+  showImg.src=detailsArr[myIndex]["videoImage"];
+  showImg.style.display = "block";
+  myIndex++;
+  if (myIndex > detailsArr.length-1) {myIndex = 0}    
+    
+  setTimeout(carousel,2000); // Change image every 2 seconds
+}
+
 // Body Part
 
 // let vidCont=document.querySelector("#videoContainer");
