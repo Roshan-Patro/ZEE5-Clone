@@ -1,24 +1,24 @@
 let detailsArr=[
     {
-        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5177236/cover/1920x770cd788cc8f66e4f27accee7da64d1e9cd.jpg",
-        name:"Janhit Mein Jaari",
+        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-externall_1480997069/cover/aajtak1920desktop4bdc45dc425c4ba5a8d3d7104464c047.jpg",
+        name:"Draupadi Murmu became the 15th President of India",
         text1:"WATCH",
         text2:"BUY NOW"
     },
     {
-        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-3392/cover/1920x77050480c91c7534e2f846717dc69b6e82c.jpg",
-        name:"Bhagya Lakshmi",
+        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z583582/cover/timesnownavbharat1920desktop7c1565e2cc144ab192bd345e96936337.jpg",
+        name:"LG ने रद्द किया केजरीवाल का सिंगापुर टूर, AAP खफा ",
         text1:"WATCH",
         text2:"BUY NOW"
     },
     {
-        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-4z5172356/cover/1920x7705a2073dc89d04da2926dbcd3886785aaa974ce344e704cabb3b0556de80eaa7b.jpg",
+        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z5117550/cover/indiatoday1920desktopb0880734a7ad46079e34afb6a1bfde9d.jpg",
         name:"Saas Bahu Achaar Pvt. Ltd.",
         text1:"WATCH",
         text2:"BUY NOW"
     },
     {
-        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5149852/cover/1920x7708760d4e6a1c8429cbfea6f1e4a375f6d25ac3d74d6544bc89704d6475e368c79.jpg",
+        videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-externall_1904997942/cover/wion1920desktop1aca9153e240442381e9f25f8e4eeb8d.jpg",
         name:"Forensic",
         text1:"WATCH",
         text2:"BUY NOW"
@@ -85,20 +85,12 @@ function carousel() {
   if (myIndex > detailsArr.length-1) {myIndex = 0}    
     
   setTimeout(carousel,2000); // Change image every 2 seconds
+
+  showImg.addEventListener('hover',function(){
+    clearTimeout(setTimeout(carousel,2000));
+  });
 }
 
-// Body Part
-
-// let vidCont=document.querySelector("#videoContainer");
-// let vidCard=document.querySelector(".videoCard");
-
-// let btnNxt=document.querySelector(".nxtBtn");
-// btnNxt.addEventListener("click",nextOne);
-
-// function nextOne()
-// {
-//     vidCont.append(vidCard[0]);
-// }
 
 const productContainers = [...document.querySelectorAll('.videoContainer')];
 const nxtBtn = [...document.querySelectorAll('.nxtBtn')];
