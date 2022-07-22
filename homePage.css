@@ -4,23 +4,44 @@ body{
 }
 #navbar{
     display: flex;
-    width: 92vw;
+    width: 100vw;
     justify-content: space-between;
     margin: auto;
     height: 60px;
+    position: fixed;
+    top: 0; 
+    /* margin-bottom: 100px; */
+    z-index: 200;
+    background-color: rgb(31, 12, 31);
+    padding-bottom: 12px;
+    padding-top: 6px;
 }
 #navbar>div{
     height: 100%;
+    padding-top: 11px;
 }
 #navbarImg img{
     height: 100%;
+    position: relative;
+    bottom: 1.5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
 }
 .search-container{
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 7.6px;
+    width: 40%;
 }
+#searchBox{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
 .search-container>form>input{
     height: 30px;
 }
@@ -36,10 +57,14 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-family: NotoSansRegular,sans-serif;
+    font-size: 13px;
 }
 #lastTab{
     width: 20%;
+    margin-right: 90px;
     text-align: right;
+    color: white;
 }
 .fa{
     color: white;
@@ -56,7 +81,7 @@ a{
     color: white;
 }
 #slider{
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 87px;
 }
 #innerBtns{
@@ -92,6 +117,7 @@ a{
     left:33px;
     color: white;
     cursor: pointer;
+    font-family: NotoSansRegular,sans-serif;
 }
 #prev{
     position: absolute;
@@ -123,14 +149,130 @@ a{
     overflow: hidden;
 }
 .videoCard{
+    position: relative;
     margin-right: 10px;
     cursor: pointer;
+    border-radius: 8px;
 }
-/* .videoCard:hover img{
-    opacity: 0.8;
+.playButton{
+    position: absolute;
+    left: 19.5%;
+    top: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135, 182, 235);
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: NotoSansRegular,sans-serif; 
+    width: 120px;
+    height: 50px;
+    border-radius: 150px 150px 150px 150px;
+}
+.playButton{
+    visibility: hidden;
+}
+.playButton:hover span{
+    display: none;
+}
+.playButton:hover::before{
+    content: "Let's go!";
+}
+.playButton:hover{
+    background-color: rgb(0, 128, 21);
+    transition: all ease 0.2s;
+}
+.playButton1{
+    position: absolute;
+    left: 22%;
+    top: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135, 182, 235);
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: NotoSansRegular,sans-serif; 
+    width: 120px;
+    height: 50px;
+    border-radius: 150px 150px 150px 150px;
+}
+.playButton1{
+    visibility: hidden;
+}
+.playButton1:hover span{
+    display: none;
+}
+.playButton1:hover::before{
+    content: "Let's go!";
+}
+.playButton1:hover{
+    background-color: rgb(0, 128, 21);
+    transition: all ease 0.2s;
+}
+.videoCard:hover .playButton1{
+    visibility: visible;
+}
+.playButton2{
+    position: absolute;
+    left: 32.6%;
+    top: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135, 182, 235);
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: NotoSansRegular,sans-serif; 
+    width: 120px;
+    height: 50px;
+    border-radius: 150px 150px 150px 150px;
+}
+.playButton2{
+    visibility: hidden;
+}
+.playButton2:hover span{
+    display: none;
+}
+.playButton2:hover::before{
+    content: "Let's go!";
+}
+.playButton2:hover{
+    background-color: rgb(0, 128, 21);
+    transition: all ease 0.2s;
+}
+.videoCard:hover .playButton2{
+    visibility: visible;
+}
+.videoCard h3{
+    color: white; 
+    font-family: NotoSansRegular,sans-serif; 
+    font-weight: lighter;
+    position: relative;
+    bottom: 8px;
+}
+.videoCard:hover img{
+    opacity: 0.5;
+}
+.videoCard:hover .playButton{
+    visibility: visible;
+}
+/* .videoCard img:hover{
+    transform: scale(1.1);
+    z-index: 2;
 } */
 .videoCard>img{
     border-radius: 8px;
+    display: block;
 }
 #backNone{
     color: white;
@@ -169,6 +311,7 @@ a{
 }
 .preBtn{
     position: absolute;
+    z-index: 100;
     left: 15px;
     top: 54%;
     color: white;
@@ -178,8 +321,12 @@ a{
     border: none;
     cursor: pointer;
 }
+/* .preBtn:hover{
+    
+} */
 .nxtBtn{
     position: absolute;
+    z-index: 100;
     right: 15px;
     top: 54%;
     color: white;
@@ -189,17 +336,29 @@ a{
     border: none;
     cursor: pointer;
 }
+/* .nxtBtn:hover{
+    transform: scale(1.1);
+    z-index: 3;
+} */
 #videoContainer_circle>div{
     border-radius: 50%;
 }
 #videoContainer_circle>div>img{
     border-radius: 50%;
 }
+/* #videoContainerNews>div{
+    border-radius: 50%;
+    background-color: white;
+}
+#videoContainerNews img{
+    border-radius: 50%;
+} */
 
 /* Footer */
 
 hr{
     margin-top: 50px;
+    size: "20";
 }
 #footerTop{
     display: flex;
@@ -244,13 +403,15 @@ hr{
     width: 35%;
     justify-content: space-between;
     margin-left: 85px;
+    color: rgb(199, 186, 186);
+    font-family: NotoSansRegular,sans-serif;
 }
 #fbody{
     display: flex;
     margin-left: 45.5px;
-    margin-top: -13px;
+    margin-top: 15px;
     color: rgb(199, 186, 186);
-    /* font-weight: lighter; */
+    font-weight: lighter;
 }
 #fbody>div{
     margin-right: 17px;
