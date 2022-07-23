@@ -1,0 +1,140 @@
+body{
+    background-color:#020516;
+}
+#pageCancel{
+    text-align: right;
+    width: 92%;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+}
+#pageCancel>h5{
+    cursor: pointer;
+}
+#firstH4{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    font-family: NotoSansBold,sans-serif;
+}
+#firstP{
+    text-align: center;
+    color: lightgrey;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: NotoSansBold,sans-serif;
+}
+#googleIcon{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 3.7px;
+    cursor: pointer;
+}
+#orDiv{
+    margin-left: 48.5%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    width: 33px;
+    height: 30px;
+    align-items: center;
+    padding-bottom: 3px;
+}
+#firstForm{
+    margin-top: 30px;
+    text-align: center;
+}
+#firstForm>a{
+    color: blueviolet;
+    text-decoration: none;
+    font-family: NotoSansMedium,sans-serif;
+}
+#firstForm>button{
+    margin-top: 8px;
+    width: 300px;
+    border-radius: 5px;
+    height: 37px;
+    background-color: #020516;
+    color: grey;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+#frstH5{
+    font-family: NotoSansMedium,sans-serif;
+    color: beige;
+}
+#frstH5>a{
+    color: blueviolet;
+    text-decoration: none;
+    font-family: NotoSansMedium,sans-serif;
+}
+#loginInput{
+    box-sizing: border-box;
+    height: 37px;
+    font-family: NotoSansMedium,sans-serif;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #020516;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#label1{
+    color: lightgray;
+    position: relative;
+    right: 54.7px;
+    font-family: NotoSansBold,sans-serif;
+    font-size: small;
+}
+#scndH5{
+    color: beige;
+    font-family: NotoSansMedium,sans-serif;
+}
+#scndH5>a{
+    color: blueviolet;
+    text-decoration: none;
+    font-family: NotoSansMedium,sans-serif;
+}
+#enterOtp{
+    height: 80px;
+}
+#enterOtpPostAlert>input{
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: NotoSansMedium,sans-serif;
+}
+#enterOtpPostAlert>label{
+    color: white;
+    font-weight: bolder;
+    font-family: NotoSansMedium,sans-serif;
+}
+#enterOtpPostAlert>button{
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+#enterOtp{
+    visibility:hidden;
+}
+#enterOtpPostAlert{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    z-index: 100;
+    visibility: visible;
+    background-color: green;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
