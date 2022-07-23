@@ -59,12 +59,16 @@ a{
     color: white;
     font-family: NotoSansRegular,sans-serif;
     font-size: 13px;
+    font-weight: bolder;
+    
 }
 #lastTab{
     width: 20%;
     margin-right: 90px;
     text-align: right;
     color: white;
+    
+    
 }
 .fa{
     color: white;
@@ -121,8 +125,8 @@ a{
 }
 #prev{
     position: absolute;
-    left: 20px;
-    top: 310px;
+    left: 50px;
+    top: 290px;
     font-weight: bolder;
     font-size: 30px;
     color: white;
@@ -132,8 +136,8 @@ a{
 }
 #next{
     position: absolute;
-    right: 20px;
-    top: 310px;
+    right: 50px;
+    top: 290px;
     font-weight: bolder;
     font-size: 30px;
     color: white;
