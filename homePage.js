@@ -116,3 +116,45 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+let loginValue=JSON.parse(localStorage.getItem("loginContent")) || [];
+let bttn=document.querySelectorAll(".videoContainer button");
+
+for(let i=0;i<bttn.length;i++)
+{
+    bttn[i].addEventListener("click",checkToOpen)
+}
+
+function checkToOpen()
+{
+    if(loginValue.length>0)
+    {
+        location.href="https://www.youtube.com/watch?v=YVvAI08Gmpc&list=PLU2X-6cCyi6Q_lNyfJywvmW1fq74STg5c&index=7&t=850s";
+    }
+    else
+    {
+        alert("Please login to access the contents!");
+    }
+}
+
+if(loginValue.length>0)
+{
+    let changeLogin=document.querySelector("#lastTab h3");
+    changeLogin.innerHTML="LOGOUT";
+    
+}
+document.querySelector("#lastTab").addEventListener("click",loginChanges);
+function loginChanges()
+{
+    if(loginValue.length>0)
+    {
+    localStorage.removeItem("loginContent");
+    location.href="homePage.html";
+    }
+    else
+    {
+        location.href="logIn.html";
+    }
+}
+
+
