@@ -3,25 +3,21 @@ let detailsArr=[
         videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-externall_1480997069/cover/aajtak1920desktop4bdc45dc425c4ba5a8d3d7104464c047.jpg",
         name:"Draupadi Murmu became the 15th President of India",
         text1:"WATCH",
-        text2:"BUY NOW"
     },
     {
         videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z583582/cover/timesnownavbharat1920desktop7c1565e2cc144ab192bd345e96936337.jpg",
         name:"LG ने रद्द किया केजरीवाल का सिंगापुर टूर, AAP खफा ",
         text1:"WATCH",
-        text2:"BUY NOW"
     },
     {
         videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z5117550/cover/indiatoday1920desktopb0880734a7ad46079e34afb6a1bfde9d.jpg",
         name:"Saas Bahu Achaar Pvt. Ltd.",
         text1:"WATCH",
-        text2:"BUY NOW"
     },
     {
         videoImage:"https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-externall_1904997942/cover/wion1920desktop1aca9153e240442381e9f25f8e4eeb8d.jpg",
         name:"Forensic",
         text1:"WATCH",
-        text2:"BUY NOW"
     }
 ];
 let btnNext=document.querySelector("#next");
@@ -52,7 +48,6 @@ function goNext(detailsArr)
     showImg.src=detailsArr[currentBox]["videoImage"];
     Name.innerText=detailsArr[currentBox]["name"];
     toWatch.innerText=detailsArr[currentBox]["text1"];
-    toBuy.innerText=detailsArr[currentBox]["text2"];
 }
 
 function goPrev(detailsArr)
@@ -65,7 +60,6 @@ function goPrev(detailsArr)
     showImg.src=detailsArr[currentBox]["videoImage"];
     Name.innerText=detailsArr[currentBox]["name"];
     toWatch.innerText=detailsArr[currentBox]["text1"];
-    toBuy.innerText=detailsArr[currentBox]["text2"];
 }
 
 var myIndex = currentBox;
@@ -108,3 +102,43 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+let loginValue=JSON.parse(localStorage.getItem("loginContent")) || [];
+let bttn=document.querySelectorAll(".videoContainer button");
+
+for(let i=0;i<bttn.length;i++)
+{
+    bttn[i].addEventListener("click",checkToOpen)
+}
+
+function checkToOpen()
+{
+    if(loginValue.length>0)
+    {
+        location.href="https://www.youtube.com/watch?v=YVvAI08Gmpc&list=PLU2X-6cCyi6Q_lNyfJywvmW1fq74STg5c&index=7&t=850s";
+    }
+    else
+    {
+        alert("Please login to access the contents!");
+    }
+}
+
+if(loginValue.length>0)
+{
+    let changeLogin=document.querySelector("#lastTab h3");
+    changeLogin.innerHTML="LOGOUT";
+    
+}
+document.querySelector("#lastTab").addEventListener("click",loginChanges);
+function loginChanges()
+{
+    if(loginValue.length>0)
+    {
+    localStorage.removeItem("loginContent");
+    location.href="homePage.html";
+    }
+    else
+    {
+        location.href="logIn.html";
+    }
+}
