@@ -1,0 +1,97 @@
+body{
+    background-color:#020516;
+}
+#pageCancel{
+    text-align: right;
+    width: 92%;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+}
+#pageCancel>h5{
+    cursor: pointer;
+}
+#firstH3{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    font-family: NotoSansBold,sans-serif;
+}
+#firstP{
+    text-align: center;
+    color: lightgrey;
+    margin-top: 30px;
+    font-family: NotoSansBold,sans-serif;
+}
+#fourImages{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    position: relative;
+    left: 15px;
+}
+#fourImages>div{
+    margin-right: 30px;
+    cursor: pointer;
+}
+#orDiv{
+    margin-left: 49%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(41, 40, 40);
+    width: 33px;
+    height: 30px;
+    align-items: center;
+    padding-bottom: 3px;
+}
+#forLogin{
+    margin-top: 30px;
+    text-align: center;
+}
+#loginInput{
+    box-sizing: border-box;
+    height: 37px;
+    font-family: NotoSansMedium,sans-serif;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #020516;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#label1{
+    color: lightgray;
+    position: relative;
+    right: 71px;
+    font-family: NotoSansBold,sans-serif;
+    font-size: small;
+}
+#forLogin>a{
+    color: blueviolet;
+    text-decoration: none;
+    font-family: NotoSansMedium,sans-serif;
+}
+#forLogin>button{
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 5px;
+    height: 37px;
+    background-color: #020516;
+    color: grey;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+#forLogin>h5{
+    color: white;
+    font-family: NotoSansMedium,sans-serif;
+}
+#forLogin>h5>a{
+    color: blueviolet;
+    text-decoration: none;
+    font-family: NotoSansMedium,sans-serif;
+}
