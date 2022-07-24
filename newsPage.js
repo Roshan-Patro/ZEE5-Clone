@@ -81,7 +81,7 @@ function carousel() {
   setTimeout(carousel,2000); // Change image every 2 seconds
 
   showImg.addEventListener('hover',function(){
-    clearTimeout(setTimeout(carousel,2000));
+    clearTimeout(setTimeout(carousel,4000));
   });
 }
 
