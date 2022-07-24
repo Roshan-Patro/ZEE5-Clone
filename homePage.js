@@ -29,7 +29,7 @@ let btnPrev=document.querySelector("#prev");
 
 let currentBox=0;
 let showImg=document.querySelector("#Image");
-let Name=document.querySelector("#slider>h1");
+let Name=document.querySelector("#sliderTop>h1");
 let toWatch=document.querySelector("#slider>button:nth-child(3)>h4");
 let toBuy=document.querySelector("#slider>button:nth-child(4)>h4");
 
@@ -69,18 +69,22 @@ function goPrev(detailsArr)
 }
 
 var myIndex = currentBox;
-carousel();
+// carousel();
 
 function carousel() {
   var i;
   for (i = 0; i < detailsArr.length; i++) {
     showImg.src=detailsArr[i]["videoImage"];
+    Name.innerText=detailsArr[i]["name"];
 
-    showImg.style.display = "none";  
+    showImg.style.display = "none"; 
+    Name.style.display="none"; 
   }
 
   showImg.src=detailsArr[myIndex]["videoImage"];
   showImg.style.display = "block";
+  Name.innerText=detailsArr[i]["name"];
+  Name.style.display = "block";
   myIndex++;
   if (myIndex > detailsArr.length-1) {myIndex = 0}    
     
