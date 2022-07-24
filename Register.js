@@ -48,8 +48,9 @@ let form=document.querySelector("#firstForm");
         {
             registerArr.push(form.loginInput.value);
             localStorage.setItem("registerData",JSON.stringify(registerArr));
-            alert("Registration Successful!");
+            alert("Registration Successful! Now you can log in. :)");
             otpBox.setAttribute("id","enterOtp");
+            location.href="logIn.html";
         }
         else
         {
